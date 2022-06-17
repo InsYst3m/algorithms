@@ -29,6 +29,18 @@ namespace Algorithms.Tests
                     new int[] { 5, 3, 12, 8, 0, 1, 9, 4, 17, 32 },
                     new int[] { 0, 1, 3, 4, 5, 8, 9, 12, 17, 32 }
                 },
+
+                new object[]
+                {
+                    new int[] { 0, 3, 4, 5 },
+                    new int[] { 0, 3, 4, 5 }
+                },
+
+                new object[]
+                {
+                    new int[] { -3, 0, 1, 0, -5, 4 },
+                    new int[] { -5, -3, 0, 0, 1, 4 }
+                },
             };
 
         #endregion
